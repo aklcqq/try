@@ -12,18 +12,8 @@ echo <<<_END
     <title>Welcome!</title>
     <link rel="shortcut icon" href="ai.png">
     <link href=css/s2.css type="text/css" rel="stylesheet" />
-  </head>
-
-  <body>
-    <h1 class="onLeft">MuA~</h1>
-
-    <p> I love Daidai~</p>
-    <hr>
-    <p>v2ray <a href="p.php">configuration<a><p>
-  </div>
-</html>
-=======
-    <style>
+    
+        <style>
     body {
         width:90%;
         margin:auto;
@@ -57,6 +47,18 @@ echo <<<_END
         width: 90%;}
 
     </style>
+
+  </head>
+
+  <body>
+    <h1 class="onLeft">MuA~</h1>
+
+    <p> I love Daidai~</p>
+    <hr>
+    <p>v2ray <a href="p.php">configuration<a><p>
+  </div>
+  
+</html>
 
 _END;
 }
