@@ -8,7 +8,9 @@ echo <<<_END
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>Welcome!</title>
+    <link rel="shortcut icon" href="ai.png">
     <link href=css/s2.css type="text/css" rel="stylesheet" />
   </head>
 
@@ -67,6 +69,7 @@ else {
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href=css/s2.css type="text/css" rel="stylesheet" />
       <title>ERROR!</title>
+      <link rel="shortcut icon" href="ai.png">
       <style>
     body {
         width:90%;
