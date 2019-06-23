@@ -1,0 +1,8 @@
+function wd
+  {
+  cd /tmp
+  git clone https://github.com/aklcqq/try.git
+  mv -r /tmp/try /var/www/html
+  }
+ wd
+ 
