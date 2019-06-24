@@ -2,7 +2,7 @@ body {
     text-align: center;
     width:90%;
     margin:0 auto;
-    font-family: Helvetica;
+    font-family: Courier;
     background-color: rgb(214,214,214);
     padding: 10px;}
 
@@ -13,7 +13,7 @@ body {
    
 
 p {
-    font-family: Helvetica;
+    font-family: Courier;
     font-size: 80%}
 
 li {
@@ -35,6 +35,11 @@ h1 {
 .test1 {
     width:100%;
     margin:0 auto;}
+
+.bnt {
+  font-family: 'Avenir-Book', Courier, Helvetica;
+  text-align: center;
+  cursor: pointer;
 
 footer>p {
     font-size:60%;}
