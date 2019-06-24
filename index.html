@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>homepage</title>
-    <link rel="shortcut icon" href="ai.png">
-        <style type="text/css">
+    <style type="text/css">
 
 body {
   text-align: center;
   width:90%;
   margin:0 auto;
-  font-family: Helvetica;
+  font-family: Courier;
   background-color: rgb(214,214,214);
   padding: 10px;}
 
@@ -22,7 +21,7 @@ body {
 
 
 p {
-  font-family: Helvetica;
+  font-family: Courier;
   font-size: 80%}
 
 li {
@@ -45,30 +44,42 @@ h1 {
   width:100%;
   margin:0 auto;}
 
+.bnt {
+  font-family: 'Avenir-Book', Courier, Helvetica;
+  text-align: center;
+  cursor: pointer;
+
 footer>p {
   font-size:60%;}
     </style>
-    
+
+    <link rel="shortcut icon" href="ai.png">
+
   </head>
 
   <body>
-  <div class="page">      
-  <div class="headpng" ><img src="headwbss.png" alt="wbs-wd.com"/></div>
-   <hr class="test1">
-    <p>yet another <a href=test.html>page</a></p>
-    <form action="https://www.wbs-wd.com/test.php" method="post">
+
+    <div class="page">
+      <div class="headpng" ><img src="headwbss.png" alt="wbs-wd.com"/></div>
+      <hr class="test1">
+      <p>yet another <a href=test.html>page</a></p>
+      <form action="test.php" method="post">
 <!--      <p>username:
-    <input type="text" name="username" id="inp01"></p>
--->    <p>password:
-    <input type="password" name="password" id="inp02"></p>      
-       <p>
-    <input type="submit" name="dopost" value="submit"/></p>
+        <input type="text" name="username" id="inp01"></p> -->
+        <input type="password" placeholder="Password" name="password" id="inp02">
+        <input class="bnt" type="submit" name="dopost" value="submit"/>
       </form>
+
+
+      <p>just another page for reference</p>
+      <script src="js/str.js"></script>
     </div>
   </body>
 
   <footer>
     <p>© 2019 wbs-wd.com</p>
   </footer>
+
+
 
 </html>
