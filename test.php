@@ -27,7 +27,7 @@ echo <<<_END
         text-align: left;
         width: 90%;
         margin: 10;
-        font-family: Helvetica;}
+        font-family: Courier;}
 
     .table01 {
         background-color:white;
@@ -80,13 +80,13 @@ else {
         padding: 10px;}
 
     p {
-        font-family: Arial;}
+        font-family: Courier;}
 
     .onLeft {
         text-align: left;
         width: 90%;
         margin: 10;
-        font-family: Helvetica;}
+        font-family: Courier;}
 
     .table01 {
         background-color:white;
