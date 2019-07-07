@@ -1,8 +1,11 @@
 function wd
   {
   cd /tmp
+  
   git clone https://github.com/aklcqq/try.git
-  mv /tmp/try /var/www/html
+  rm -r /var/www/html
+  mv /tmp/try /tmp/html
+  mv -R /tmp/html /var/www/html
   }
  wd
  
