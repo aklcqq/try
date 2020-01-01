@@ -55,7 +55,6 @@ echo <<<_END
 
     <p> I love Daidai~</p>
     <hr>
-    <p>v2ray <a href="p.php">configuration<a><p>
   </div>
   
 </html>
